@@ -1,0 +1,237 @@
+ /* Font used in project */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} 
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+::placeholder {
+  width: fit-content;
+}
+ul a {
+  color: #5f5f5f;
+}
+li {
+  font-size: 14px;
+  letter-spacing: 0.7px;
+}
+
+.newsletter-form {
+  margin: 0 !important;
+}
+
+.hero-banner {
+  background-image: url("../images/background-image.jpg") ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(100vh - 75px);
+  min-height: 320px;
+}
+.subtitle {
+  color: black;
+  font-size: 20px;
+}
+.second-subtitle {
+  letter-spacing: 0.9px;
+  color: var(--bs-bloomsySSubtitle) !important;
+  font-size: 18px;
+  padding-top: 2rem;
+}
+.second-paragraph {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.7px;
+  color: var(--bs-bloomsySSubtitle) !important;
+  font-size: 14px;
+  padding: 1.188rem 0rem 2rem 0rem;
+}
+.left-email-input {
+  padding-right: 120px;
+}
+.right-button {
+  padding-left: 10px;
+}
+.ampersand {
+  color: #d5212e;
+  font-size: 40px;
+}
+
+@media screen and (min-width: 992px) {
+  .nav_list {
+    max-width: 75% !important;
+  }
+}
+@media screen and (max-width: 444px) {
+  .buttons_hero-section {
+    display: grid;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .second-section-row {
+    padding: 50px 0px 50px 100px;
+  }
+}
+
+@media screen and (max-width: 444px) {
+  .second_section_btns {
+    display: grid;
+  }
+}
+.right_form {
+  background: transparent linear-gradient(331deg, #ec1f2e 0%, #d5212e 100%) 0% 0% no-repeat padding-box;
+  padding: 5rem !important;
+}
+@media screen and (max-width: 620px) {
+  .right_form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem !important;
+  }
+  .first_column {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .right_form {
+    padding: 2rem !important;
+    zoom: 85% !important;
+  }
+  .first_column {
+    padding-bottom: 1rem !important;
+    display: flex;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .right_form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem !important;
+  }
+}
+.submit_btn {
+  margin-left: auto;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+}
+.left_title {
+  color: var(--bs-white) !important;
+  font-size: 45px;
+}
+.left-subtitle {
+  letter-spacing: 1.25px;
+  color: var(--bs-white) !important;
+  font-size: 25px;
+}
+.left-paragraph {
+  letter-spacing: 0.05em;
+  color: var(--bs-white) !important;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+@media screen and (max-width: 1061px) {
+  .text_left_third {
+    padding: 1rem;
+  }
+  .left_title {
+    font-size: 35px;
+  }
+  .left-subtitle {
+    font-size: 20px;
+  }
+}
+.text_left_third {
+  padding: 6rem 1rem 6rem 6rem;
+}
+
+@media screen and (max-width: 463px) {
+  .text_left_third {
+    text-align: center;
+    padding: 1rem;
+  }
+  .left_title {
+    font-size: 25px;
+    padding-bottom: 1rem;
+  }
+  .left-subtitle {
+    font-size: 15px;
+    padding-top: 1rem;
+  }
+  .left-paragraph {
+    font-size: 11px;
+  }
+}
+.footer_title {
+  color: var(--bs-bloomsy-footer) !important;
+}
+.footer-sections {
+  width: fit-content;
+}
+.img-flowers {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/form_image.jpg");
+}
+.footer-title-right {
+  font-size: 18px;
+  letter-spacing: 0.05em;
+}
+.border-bottom:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 80%;
+  height: 1px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+.sign-button {
+  padding: 10px 20px;
+}
+.sign-button:hover {
+  color: #000;
+  background-color: #fff;
+}
+@media screen and (max-width: 576px) {
+  .border-bottom:before {
+    width: 100%;
+  }
+}
+.footer-subtitle-right {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.left-email,.right-button {
+  width: fit-content !important;
+}
+.left-email-input {
+  font-size: 14px;
+  height: 45px;
+  border: 1px solid gray;
+  letter-spacing: 0.05em;
+  padding-left: 1rem;
+}
+@media screen and (max-width: 400px) {
+  h1.hero-heading {
+    font-size: 35px;
+  }
+  h3.subtitle {
+    font-size: 17px;
+    margin-bottom: -30px;
+  }
+  p.hero-text {
+    font-size: 14px;
+  }
+  .btn.btn-primary,.btn.btn-secondary {
+    padding: 10px 25px;
+    font-size: 12px;
+  }
+  .hero-banner {
+    min-height: 370px;
+  }
+}
